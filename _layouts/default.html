@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include ahead.html %}
+
+  <body>
+    <div class="page">
+
+      <div class="background gradient">
+        <ul class="bg-bubbles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+        {% include anav.html %}
+
+        {{ content }}
+      </div>
+    </div>
+
+    <script src="{{site.baseurl}}/js/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/js/jquery.validate.js"></script>
+    <script src="{{site.baseurl}}/js/jquery.modal.js"></script>
+    <script src="{{site.baseurl}}/js/imagesloaded.pkgd.js"></script>
+    <script src="{{site.baseurl}}/js/isotope.pkgd.js"></script>
+
+    <script src="{{site.baseurl}}/js/scripts.js"></script>
+  </body>
+
+</html>

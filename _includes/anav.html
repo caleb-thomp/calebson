@@ -1,0 +1,72 @@
+<header class="header">
+  <!-- menu -->
+  <div class="top-menu">
+    {% assign menu = site.data.pages.docs %}
+    <ul>
+      {% for m in menu %} {% assign dc = m.title | downcase
+      %} {% assign lk = '#' | append: dc %} {% assign icon =
+      'icon ' | append: m.icon %}
+
+      <li
+        class="{% if page.url contains dc %}active{% endif %}"
+      >
+        <a href="{{ site.baseurl}}/pages/{{ dc }}">
+          <span class="{{ icon }}"></span>
+          <span class="link">{{ m.title }}</span>
+        </a>
+      </li>
+
+      {% endfor %}
+    </ul>
+  </div>
+</header>
+
+<div class="card-started" id="home-card">
+  <div class="profile">
+    <div
+      class="slide"
+      style="
+        background-image: url('https://i.imgur.com/hFhQOQq.jpg');
+      "
+    ></div>
+
+    <div class="image">
+      <img src="https://i.imgur.com/7PDP8mf.jpg" alt="" />
+    </div>
+
+    <div class="title">Caleb Thompson</div>
+    <div class="subtitle">
+      Full Stack Dev(Front-End Heavy)
+    </div>
+
+    <div class="social">
+      <a href="#"
+        ><i class="fas fa-map-marker-alt"></i>&nbsp Bay
+        Area, California</a
+      >
+      <br />
+
+      <a href="mailto:caleb@webstronomers.com"
+        ><i class="fas fa-envelope"></i>&nbsp
+        caleb.softdev@gmail.com</a
+      ><br />
+      <br />
+      <a
+        target="_blank"
+        href="https://github.com/caleb-thomp"
+        ><i class="fab fa-github"></i>&nbsp caleb-thomp</a
+      >
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/caleb-thomp/"
+        ><i class="fab fa-linkedin"></i>&nbsp caleb-thomp</a
+      >
+      <a
+        target="_blank"
+        href="https://twitter.com/caleb_softdev"
+        ><i class="fab fa-twitter"></i>&nbsp
+        @caleb_softdev</a
+      >
+    </div>
+  </div>
+</div>

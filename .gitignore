@@ -4,3 +4,18 @@
 # But not these files & folders
 !.gitignore
 !README.md
+!me.sh
+!_certs/
+!_data/
+!_includes/
+!_layouts/
+!_site/
+!_works/
+!css/
+!fonts/
+!images/
+!js/
+!pages/
+!index.md/
+# Local Netlify folder
+.netlify

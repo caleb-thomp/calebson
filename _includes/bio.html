@@ -1,0 +1,126 @@
+<div class="card-inner animated active" id="bio">
+  <div class="card-wrap">
+    <div class="content about">
+      <!-- title -->
+      <div class="title">About Me</div>
+
+      <!-- content -->
+      <div class="row">
+        <div
+          class="col col-d-12 col-t-12 col-m-12 border-line-v"
+        >
+          <div class="text-box">
+            <p>
+              I am Caleb Thompson. I have rich experience in
+              web and mobile development. I love to talk
+              with you about your unique idea. Let's Talk!!!
+            </p>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+
+    <!--
+			Services					-->
+    <div class="content services">
+      <!-- title -->
+      <div class="title">My Services</div>
+
+      <!-- content -->
+      <div class="row service-items border-line-v">
+        <!-- service item -->
+        <div
+          class="col col-d-6 col-t-6 col-m-12 border-line-h"
+        >
+          <div class="service-item">
+            <div class="icon">
+              <span class="ion ion-code"></span>
+            </div>
+            <div class="name">Front End Development</div>
+            <p>
+              Modern and mobile-ready websites that will
+              help you reach all of your marketing.
+            </p>
+          </div>
+        </div>
+
+        <!-- service item -->
+        <div class="col col-d-6 col-t-6 col-m-12">
+          <div class="service-item">
+            <div class="icon">
+              <span class="ion ion-cloud"></span>
+            </div>
+            <div class="name">Backend Development</div>
+            <p>
+              Robust Secure server apps, SQL & NO-SQL DBs.
+            </p>
+          </div>
+        </div>
+
+        <!-- service item -->
+        <div
+          class="col col-d-6 col-t-6 col-m-12 border-line-h"
+        >
+          <div class="service-item">
+            <div class="icon">
+              <span class="ion ion-iphone"></span>
+            </div>
+            <div class="name">Mobile Development</div>
+            <p>
+              Modern styled mobile apps optimized for speed
+              and simplicity.
+            </p>
+          </div>
+        </div>
+
+        <!-- service item -->
+        <div class="col col-d-6 col-t-6 col-m-12">
+          <div class="service-item">
+            <div class="icon">
+              <span class="ion ion-cube"></span>
+            </div>
+            <div class="name">Web 3 Dev</div>
+            <p>Smart Contracts and Blockchain Query Apps</p>
+          </div>
+        </div>
+
+        <div class="clear"></div>
+      </div>
+    </div>
+
+    <div class="content certifications">
+      <div class="title">Awards & Certification</div>
+
+      <div class="row grid-itemz border-line-v">
+        {% for cert in site.certs %}
+        <div
+          class="col col-d-3 col-t-3 col-m-6 grid-item border-line-h"
+        >
+          <div class="box-item">
+            <div class="imag">
+              <a
+                href="{{ cert.image }}"
+                class="has-popup-image"
+              >
+                <img
+                  class="work-image"
+                  src="{{ cert.thumbnail }}"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="desc">
+              <a
+                href="{{ cert.image }}"
+                class="name has-popup-image"
+                >{{ cert.name }}</a
+              >
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

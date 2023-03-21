@@ -1,0 +1,13 @@
+title: Caleb's Portfolio
+docs:
+  - title: Bio
+    icon: ion-person
+
+  - title: Skills
+    icon: ion-gear-b
+
+  - title: Works
+    icon: ion-briefcase
+
+  - title: Contact
+    icon: ion-at
