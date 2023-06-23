@@ -1,42 +1,42 @@
 .background {
-  background-color: #fb6f36;
+  background-color: #5e5ed8;
 }
 
 .preloader .spinner .double-bounce1,
 .preloader .spinner .double-bounce2 {
-  background: #fb6f36;
+  background: #5e5ed8;
 }
 
 .lnk:hover,
 .button:hover {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .lnk:hover .ion,
 .button:hover .ion {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .lnk:hover .arrow:before,
 .button:hover .arrow:before,
 .lnk:hover .arrow:after,
 .button:hover .arrow:after {
-  background: #fb6f36;
+  background: #5e5ed8;
 }
 
 input:focus,
 textarea:focus,
 button:focus {
-  border-bottom: 1px solid #fb6f36;
+  border-bottom: 1px solid #5e5ed8;
 }
 
 button:hover {
-  border-bottom: 1px solid #fb6f36;
+  border-bottom: 1px solid #5e5ed8;
 }
 
 .header .top-menu ul li:hover a,
 .header .top-menu ul li.active a {
-  color: #fb6f36;
+  color: #5e5ed8;
   background-color: #333;
 }
 
@@ -44,133 +44,133 @@ button:hover {
 .header .top-menu ul li.active a .icon,
 .header .top-menu ul li:hover a .link,
 .header .top-menu ul li.active a .link {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .card-started:after {
   background: -moz-linear-gradient(
     -45deg,
-    #fb6f36,
-    #fb6f36
+    #5e5ed8,
+    #5e5ed8
   );
   background: -webkit-linear-gradient(
     -45deg,
-    #fb6f36,
-    #fb6f36
+    #5e5ed8,
+    #5e5ed8
   );
-  background: linear-gradient(135deg, #fb6f36, #fb6f36);
+  background: linear-gradient(135deg, #5e5ed8, #5e5ed8);
 }
 
 .card-started .profile .image:before {
   background: -moz-linear-gradient(
     -45deg,
-    #f9cbb9,
-    #f9cbb9
+    #d0b6ec,
+    #d0b6ec
   );
   background: -webkit-linear-gradient(
     -45deg,
-    #f9cbb9,
-    #f9cbb9
+    #d0b6ec,
+    #d0b6ec
   );
   background: linear-gradient(135deg, #fae7c6, #f9dfb4);
 }
 
 .card-started .profile .subtitle {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .card-started .profile .social a:hover .ion,
 .card-started .profile .social a:hover .fab,
 .card-started .profile .social a:hover .fas {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .content .title:before {
   background: -moz-linear-gradient(
     -45deg,
-    #f9cbb9,
-    #f9cbb9
+    #d0b6ec,
+    #d0b6ec
   );
   background: -webkit-linear-gradient(
     -45deg,
-    #f9cbb9,
-    #f9cbb9
+    #d0b6ec,
+    #d0b6ec
   );
-  background: linear-gradient(135deg, #f9cbb9, #f9cbb9);
+  background: linear-gradient(135deg, #d0b6ec, #d0b6ec);
 }
 
 .service-items .service-item .icon {
-  color: #fb6f36;
+  color: #5e5ed8;
   background: -moz-linear-gradient(
     -45deg,
-    #f9cbb9,
-    #f9cbb9
+    #d0b6ec,
+    #d0b6ec
   );
   background: -webkit-linear-gradient(
     -45deg,
-    #f9cbb9,
-    #f9cbb9
+    #d0b6ec,
+    #d0b6ec
   );
-  background: linear-gradient(135deg, #f9cbb9, #f9cbb9);
+  background: linear-gradient(135deg, #d0b6ec, #d0b6ec);
 }
 
 .pricing-items .pricing-item .icon {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .pricing-items .pricing-item .feature-list ul li strong {
-  background: #fb6f36;
+  background: #5e5ed8;
 }
 
 .fuct-items .fuct-item .icon {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .resume-title .icon,
 .skill-title .icon {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .resume-items .resume-item.active .date {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .resume-items .resume-item.active .date:before {
-  background: #fb6f36;
+  background: #5e5ed8;
 }
 
 .skills-list ul li .progress .percentage {
-  background: #fb6f36;
+  background: #5e5ed8;
 }
 
 .content.works .filter-menu .f_btn.active {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .box-item .image .info:before {
   background: -moz-linear-gradient(
     -45deg,
-    #f9cbb9,
-    #f9cbb9
+    #d0b6ec,
+    #d0b6ec
   );
   background: -webkit-linear-gradient(
     -45deg,
-    #f9cbb9,
-    #f9cbb9
+    #d0b6ec,
+    #d0b6ec
   );
-  background: linear-gradient(135deg, #f9cbb9, #f9cbb9);
+  background: linear-gradient(135deg, #d0b6ec, #d0b6ec);
 }
 
 .post-box .blog-content blockquote {
-  border-left: 2px solid #fb6f36;
+  border-left: 2px solid #5e5ed8;
 }
 
 .post-box .blog-content ul.list-style li:before {
-  background: #fb6f36;
+  background: #5e5ed8;
 }
 
 .post-box .post-comments li .comment-info .name h6 {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .background.gradient {
@@ -192,11 +192,11 @@ button:hover {
 */
 
 .skills-list.list ul li .name:before {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .skills-list.dotted ul li .progress .da span {
-  background: #fb6f36 !important;
+  background: #5e5ed8 !important;
 }
 
 .skills-list.circles .progress .bar,
@@ -250,48 +250,48 @@ button:hover {
 .skills-list.circles .progress.p98 .fill,
 .skills-list.circles .progress.p99 .fill,
 .skills-list.circles .progress.p100 .fill {
-  border: 0.09em solid #fb6f36;
+  border: 0.09em solid #5e5ed8;
 }
 
 input:focus,
 textarea:focus {
-  border-color: #fb6f36;
+  border-color: #5e5ed8;
 }
 
 .card-started .profile .subtitle,
 .card-started .profile .typed-cursor {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .content .title .first-word {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .content .title::first-letter,
 .content .title .first-letter::first-letter {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .new-skin .service-items .service-item .icon {
-  background: #fb6f36 !important;
+  background: #5e5ed8 !important;
 }
 
 .resume-items .resume-item.active .date {
-  border-color: #fb6f36;
+  border-color: #5e5ed8;
 }
 
 .box-item:hover .desc .name {
-  color: #fb6f36;
+  color: #5e5ed8;
 }
 
 .new-skin .info-list ul li strong {
-  background: #fb6f36;
+  background: #5e5ed8;
 }
 
 .revs-carousel .owl-dots .owl-dot {
-  border-color: #fb6f36;
+  border-color: #5e5ed8;
 }
 
 .revs-carousel .owl-dot.active {
-  background: #fb6f36;
+  background: #5e5ed8;
 }
